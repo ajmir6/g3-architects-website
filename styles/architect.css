@@ -257,8 +257,8 @@ main> section{
     width: 100%;
   }
   #experiance-badge{
-    margin-top: -50px;
-    margin-left: 1.5rem;
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
 
@@ -284,15 +284,18 @@ main> section{
   .sponcer-company{
     justify-items: center;
   }
-  .apur-feature{
+  /* .apur-feature{
     justify-items: center;
-  }
-   /* .featured-image{
-    margin: 0 auto;
-   } */
+  } */
+   .featured-image{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+   }
   #experiance-badge{
     margin-top: -50px;
-    margin-left: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   
 }
